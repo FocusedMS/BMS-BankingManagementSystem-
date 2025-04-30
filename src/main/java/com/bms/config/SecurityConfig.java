@@ -49,6 +49,8 @@ public class SecurityConfig {
                 "/api/transactions",
                 "/api/transactions/**",
                 "/api/dashboard/**",
+                "/api/fixed-deposits/**",
+                "/api/statements/**",
                 "/swagger-ui/**",
                 "/v3/api-docs/**"
             ).permitAll()
